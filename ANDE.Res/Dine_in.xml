@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite" configfailurepolicy="skip">
+
+	<test name="Dine_in" preserve-order="true">
+
+		<classes>
+
+			<class name="restaurant.Login" />
+			<class name="dine_in.Settings" />
+			<class name="dine_in.Requests" />
+			<class name="dine_in.Edit_Order" />
+
+		</classes>
+	</test>
+</suite> 

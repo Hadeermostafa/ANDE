@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <test thread-count="5" name="Dine_in(failed)">
+    <classes>
+      <class name="restaurant.Login">
+        <methods>
+          <include name="valid_credintial"/>
+          <include name="webDriver"/>
+          <include name="login_button"/>
+          <include name="invalid_credintial"/>
+          <include name="empty_filds"/>
+        </methods>
+      </class> <!-- restaurant.Login -->
+      <class name="dine_in.Edit_Order">
+        <methods>
+          <include name="operations_page"/>
+          <include name="webDriver"/>
+          <include name="get_data"/>
+          <include name="status_order"/>
+          <include name="call_waiter"/>
+          <include name="edit_order"/>
+          <include name="payment"/>
+          <include name="payment_data"/>
+        </methods>
+      </class> <!-- dine_in.Edit_Order -->
+      <class name="dine_in.Settings">
+        <methods>
+          <include name="payment_methods"/>
+          <include name="webDriver"/>
+          <include name="DineInSetting_positive_numbers"/>
+          <include name="DineInSetting_negative_numbers"/>
+        </methods>
+      </class> <!-- dine_in.Settings -->
+      <class name="dine_in.Requests">
+        <methods>
+          <include name="Create_Order"/>
+          <include name="Call_waiter"/>
+          <include name="payment_request"/>
+          <include name="Register_Delivery"/>
+        </methods>
+      </class> <!-- dine_in.Requests -->
+    </classes>
+  </test> <!-- Dine_in(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

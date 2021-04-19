@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dine in]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Tests.Edititem">
+        <methods>
+          <include name="webDriver"/>
+          <include name="edititem"/>
+        </methods>
+      </class> <!-- Tests.Edititem -->
+      <class name="Tests.Tables">
+        <methods>
+          <include name="SearchTable"/>
+          <include name="webDriver"/>
+          <include name="PrintTable"/>
+          <include name="AddTable"/>
+          <include name="DeleteTable"/>
+        </methods>
+      </class> <!-- Tests.Tables -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Dine in] -->

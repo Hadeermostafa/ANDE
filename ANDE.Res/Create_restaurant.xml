@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite" configfailurepolicy="skip">
+
+	<test name="Create_Restaurant" preserve-order="true">
+
+		<classes>
+
+			<class name="restaurant.Login" />
+			<class name="restaurant.create_account" />
+			<class name="restaurant.AddExtras" />
+			<class name="restaurant.Additem" />
+			<class name="restaurant.Edititem" />
+			<class name="restaurant.Tables" />
+
+
+		</classes>
+	</test>
+</suite> 

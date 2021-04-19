@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite" configfailurepolicy="skip">
+	
+ <test name="Test" preserve-order="true">	
+	
+		<classes>
+		    
+		    <class name="Tests.Login"/>
+		    <class name="Tests.create_account"/>
+		    <class name="Tests.EditProfile"/>
+			<class name="Tests.AddExtras" />
+			<class name="Tests.Additem" />
+			<class name="Tests.Edititem" />
+			<class name="Tests.Tables" />
+           
+				
+		</classes>
+	</test>
+	
+</suite> 
